@@ -9,5 +9,7 @@ elif op == "-":
     res = val1 - val2
 elif op == "*":
     res = val1 * val2
+else:
+    print("invalid")
 print("Printing result......")
 print(f"result : {res}")
